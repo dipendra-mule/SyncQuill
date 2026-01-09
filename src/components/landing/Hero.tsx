@@ -34,11 +34,17 @@ const Hero = () => {
               SyncQuillAI helps agencies generate high-quality content while preserving each client's unique writing style and brand voice.
             </p>
             <div className='flex flex-wrap gap-4'>
+            <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeyfR_rI7830g8nYlse6wpU-aY4cq-MRcRxYxiYESq1K1xd2Q/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
               <Button
                 size='lg'
                 className='px-8 py-6 text-base font-medium rounded-full bg-gradient-to-r from-primary to-indigo-500 hover:opacity-90 transition-all duration-300 shadow-glow hover:shadow-glow-lg'>
                 Request Access
               </Button>
+                </a>
               <Button
                 variant='outline'
                 size='lg'
