@@ -11,8 +11,11 @@ const Header = () => {
           <span className="text-lg font-semibold text-foreground">SyncQuillAI</span>
         </div>
         <Button 
-          size="sm" 
+          size="sm"
           className="rounded-full px-6 bg-gradient-to-r from-primary to-indigo-500 hover:opacity-90 transition-all duration-300 shadow-glow"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeyfR_rI7830g8nYlse6wpU-aY4cq-MRcRxYxiYESq1K1xd2Q/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Request Access
         </Button>
